@@ -1,0 +1,22 @@
+/* Color Palette https://colorhunt.co/palette/ff65001e3e620b192c000000 */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+@font-face {
+    font-family: InterVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("./assets/fonts/InterVariable.woff2") format("woff2");
+  }
+:root {
+    --sidebar-buttons: #FF6500;
+    --contentBg: #0B192C;
+    --header-cards: #1E3E62;
+}
