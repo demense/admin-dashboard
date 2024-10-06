@@ -51,14 +51,16 @@ img.dashboard {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-left: 10px;
+  margin-left: 13px;
 }
 div.icon-container {
   display: flex;
   align-items: center;
-  gap: 21px;
+  gap: 24px;
+  font-size: 17px;
 }
 .icon-container > img {
   width: 24px;
   height: 24px;
+  margin-bottom: 2px;
 }
