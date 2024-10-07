@@ -1,65 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Admin Dashboard</title>
-</head>
-<body>
-    <div class="sidebar"> <!-- SIDEBAR -->
-        <div class="dashboard"> <!-- DASHBOARD -->
-            <img src="./assets/images/icons/dashboard.svg" alt="dashboard-icon" class="dashboard">
-            <h1 class="dashboard">Dashboard</h1>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="dashboard">
+        <!-- DASHBOARD -->
+        <img
+          src="./assets/images/icons/dashboard.svg"
+          alt="dashboard-icon"
+          class="dashboard"
+        />
+        <h1 class="dashboard">Dashboard</h1>
+      </div>
+      <div class="icons-group1">
+        <div class="home icon-container">
+          <img
+            src="./assets/images/icons/home.svg"
+            alt="home-icon"
+            class="home"
+          />
+          <h3 class="home">Home</h3>
         </div>
-        <div class="icons-group1">
-            <div class="home icon-container">
-                <img src="./assets/images/icons/home.svg" alt="home-icon" class="home">
-                <h3 class="home">Home</h3>
-            </div>
-            <div class="profile icon-container">
-                <img src="./assets/images/icons/profile.svg" alt="profile-icon" class="profile">
-                <h3 class="profile">Profile</h3>
-            </div>
-            <div class="messages icon-container">
-                <img src="./assets/images/icons/messages.svg" alt="messages-icon" class="messages">
-                <h3 class="messages">Messages</h3>
-            </div>
-            <div class="history icon-container">
-                <img src="./assets/images/icons/history.svg" alt="history-icon" class="history">
-                <h3 class="history">History</h3>
-            </div>
-            <div class="tasks icon-container">
-                <img src="./assets/images/icons/tasks.svg" alt="tasks-icon" class="tasks">
-                <h3 class="tasks">Tasks</h3>
-            </div>
-            <div class="communities icon-container">
-                <img src="./assets/images/icons/communities.svg" alt="communities-icon" class="communities">
-                <h3 class="communites">Communites</h3>
-            </div>
-
+        <div class="profile icon-container">
+          <img
+            src="./assets/images/icons/profile.svg"
+            alt="profile-icon"
+            class="profile"
+          />
+          <h3 class="profile">Profile</h3>
         </div>
-        <div class="icons-group2">
-            <div class="settings icon-container">
-                <img src="./assets/images/icons/settings.svg" alt="" class="settings">
-                <h3 class="settings">Settings</h3>
-            </div>
-            <div class="support icon-container">
-                <img src="./assets/images/icons/support.svg" alt="support-icon" class="support">
-                <h3 class="support">Support</h3>
-            </div>
-            <div class="privacy icon-container">
-                <img src="./assets/images/icons/privacy.svg" alt="privacy-icon" class="privacy">
-                <h3 class="privacy">Privacy</h3>
-            </div>
+        <div class="messages icon-container">
+          <img
+            src="./assets/images/icons/messages.svg"
+            alt="messages-icon"
+            class="messages"
+          />
+          <h3 class="messages">Messages</h3>
         </div>
+        <div class="history icon-container">
+          <img
+            src="./assets/images/icons/history.svg"
+            alt="history-icon"
+            class="history"
+          />
+          <h3 class="history">History</h3>
+        </div>
+        <div class="tasks icon-container">
+          <img
+            src="./assets/images/icons/tasks.svg"
+            alt="tasks-icon"
+            class="tasks"
+          />
+          <h3 class="tasks">Tasks</h3>
+        </div>
+        <div class="communities icon-container">
+          <img
+            src="./assets/images/icons/communities.svg"
+            alt="communities-icon"
+            class="communities"
+          />
+          <h3 class="communites">Communites</h3>
+        </div>
+      </div>
+      <div class="icons-group2">
+        <div class="settings icon-container">
+          <img
+            src="./assets/images/icons/settings.svg"
+            alt=""
+            class="settings"
+          />
+          <h3 class="settings">Settings</h3>
+        </div>
+        <div class="support icon-container">
+          <img
+            src="./assets/images/icons/support.svg"
+            alt="support-icon"
+            class="support"
+          />
+          <h3 class="support">Support</h3>
+        </div>
+        <div class="privacy icon-container">
+          <img
+            src="./assets/images/icons/privacy.svg"
+            alt="privacy-icon"
+            class="privacy"
+          />
+          <h3 class="privacy">Privacy</h3>
+        </div>
+      </div>
     </div>
     <div class="header">
-
+      <div class="upper-section">
+        <div class="search">
+          <img
+            src="./assets/images/icons/search.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+          <input type="search" name="search" id="search-input" />
+        </div>
+        <div class="noti-pfp-name">
+          <img
+            src="./assets/images/icons/notifications.svg"
+            alt="notifications-icon"
+            class="notifications-icon"
+          />
+          <img
+            src="./assets/images/profile-pictures/morgan.jpeg"
+            alt="profile-picture"
+            class="morgan-small"
+          />
+          <p class="morgan">Morgan Oakley</p>
+        </div>
+      </div>
+      <div class="lower-section">
+        <div class="pfp-greet">
+            <img
+            src="./assets/images/profile-pictures/morgan.jpeg"
+            alt="profile-picture"
+            class="morgan-big"
+            />
+            <div class="greet">
+                <p class="greet">Hi there,</p>
+                <p class="name">Morgan Oakley (@morgan)</p>
+            </div>
+        </div>
+        <div class="buttons">
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </div>
     </div>
-    <div class="content">
-
-    </div>
-</body>
+    <div class="content"></div>
+  </body>
 </html>
