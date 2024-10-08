@@ -27,7 +27,7 @@ body {
     color: white;
     display: grid;
     grid-template-columns: 1.3fr minmax(100px, 5fr);
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
 }
 /* -----------------------SIDEBAR---------------------------------- */
 div.sidebar {
@@ -150,8 +150,8 @@ div.content {
   background-color: var(--contentBg);
   padding: 30px 20px 30px 15px;
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
-  grid-template-rows: min-content 1fr min-content 0.9fr;
+  grid-template-columns: 2.6fr 1fr;
+  grid-template-rows: min-content 2fr min-content 1.5fr;
   column-gap: 20px;
 }
 h3.projects, h3.announcements, h3.trending {
@@ -182,11 +182,14 @@ div.cell-icons {
   display: flex;
   gap: 20px;
 }
+[alt="fork"] {
+  transform: scaleY(-1);
+}
 div.announcements {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 30px;
+  padding: 25px;
   background-color: var(--header-cards);
   border-radius: 8px;
 }
@@ -204,7 +207,7 @@ div.trending {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
   background-color: var(--header-cards);
   border-radius: 8px;
 }
@@ -219,7 +222,7 @@ div.trending > div.user > img {
   border-radius: 50%;
 }
 p.handle {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 p.project-desc, p.announcement, p.bio {
   color: rgba(255,255,255, .8) ;
